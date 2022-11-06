@@ -1,0 +1,89 @@
+/* homepage style */
+h1 {font-size: 700%;}
+
+#relativeRight {position: relative;
+left: 180px;}
+.boxborder {opacity: .75;
+	font-color:  white;
+  background-color: black;
+  border: 2px red dotted;
+  padding: 10px;
+  width: 90px;
+  height: 50px}
+
+#relativeTop {
+  position: relative;
+  top: 25px;
+}
+
+#relativeLeft {
+  position: relative;
+  left: 40px;
+}
+
+
+.whitebox {
+	opacity: .75;
+	font-color:  white;
+  background-color: black;
+  border: 2px black solid;
+  padding: 10px;
+  width: 90px;
+  height: 50px;
+}
+
+
+/* page 1 style */
+#fixedimg1 {
+	position:  fixed;
+	bottom:  0px;
+	left:  0px;
+}
+#fixedimg2 {
+	position:  fixed;
+	top:  0px;
+	right:  0px;}
+#fixedimg3 {
+	position:  fixed;
+	bottom:  0px;
+	right:  0px;}
+#fixedimg4 {
+	position:  fixed;
+	top:  0px;
+	left:  0px;}
+
+.paragraph1 {color: white;
+background-color: #A9E2F3;
+width: 300px;
+padding: 25px;
+border: 5px pink double; }
+.paragraph2 {color: white;
+background-color: yellow;
+width: 700px;
+padding: 50px;
+margin: 20px;
+border: 15px black groove; }
+.skull {float: right;
+margin: 15px;}
+.paragraph3 {position: absolute;
+left: 200px; bottom: 150px;
+padding: 20px 15px;
+margin: 100px;
+color: white;
+background-color: gray;
+opacity: .5;}
+
+/* page 2 style */
+div {
+    border: 10px ridge #FF0080;
+    color: white;
+    background-color: orange;}
+h3 {position: absolute;
+right: 250px; top: 1000px;}
+.clearfix {
+    overflow: auto;
+}
+.swirl {
+    float: left;
+}
+.patrick {float: right;}
